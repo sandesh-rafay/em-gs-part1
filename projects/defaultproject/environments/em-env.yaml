@@ -5,5 +5,5 @@ metadata:
   project: defaultproject
 spec:
   environmentTemplate:
-    name: myenv
+    name: em-et
     version: v1

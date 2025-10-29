@@ -7,7 +7,7 @@ spec:
   agents:
   - name: sandesh-testbed-agent
   contexts:
-  - name: myenv-configcontext
+  - name: em-cc
   provider: opentofu
   providerOptions:
     openTofu:
@@ -15,7 +15,7 @@ spec:
   repositoryOptions:
     branch: master
     directoryPath: /terraform/
-    name: em-gs
+    name: em-gs-part1
   version: v1
   versionState: draft
 

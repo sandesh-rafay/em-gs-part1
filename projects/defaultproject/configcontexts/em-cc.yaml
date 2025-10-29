@@ -1,7 +1,7 @@
 apiVersion: eaas.envmgmt.io/v1
 kind: ConfigContext
 metadata:
-  name: myenv-configcontext
+  name: em-cc
   project: defaultproject
 spec:
   envs:
