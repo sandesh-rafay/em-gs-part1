@@ -1,7 +1,7 @@
 apiVersion: system.k8smgmt.io/v3
 kind: Project
 metadata:
-  name: em-gs
+  name: defaultproject
 spec:
   driftWebhook:
     enabled: true
