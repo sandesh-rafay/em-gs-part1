@@ -1,0 +1,9 @@
+apiVersion: eaas.envmgmt.io/v1
+kind: Environment
+metadata:
+  name: em-env
+  project: defaultproject
+spec:
+  environmentTemplate:
+    name: myenv
+    version: v1
