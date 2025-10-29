@@ -11,7 +11,7 @@ spec:
     name: em-rt
     resourceOptions:
       version: v1
-    type: dynamics
+    type: dynamic
   version: v1
   versionState: draft
 
