@@ -2,12 +2,12 @@ apiVersion: eaas.envmgmt.io/v1
 kind: ResourceTemplate
 metadata:
   name: em-rt
-  project: em-gs
+  project: defaultproject
 spec:
   agents:
-  - name: em-gs
+  - name: sandesh-testbed-agent
   contexts:
-  - name: em-cc
+  - name: myenv-configcontext
   provider: opentofu
   providerOptions:
     openTofu:

@@ -1,8 +1,8 @@
 apiVersion: eaas.envmgmt.io/v1
 kind: ConfigContext
 metadata:
-  name: em-cc
-  project: em-gs
+  name: myenv-configcontext
+  project: defaultproject
 spec:
   envs:
   - key: TF_VAR_access_key
