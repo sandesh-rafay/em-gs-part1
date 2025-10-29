@@ -13,7 +13,7 @@ spec:
     openTofu:
       backendType: system
   repositoryOptions:
-    branch: master
+    branch: main
     directoryPath: /terraform/
     name: em-gs-part1
   version: v1
